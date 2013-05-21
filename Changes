@@ -1,0 +1,42 @@
+2013-05-21 Tuesday  DoccY <alban@mancheron.infos.st>
+
+	* Makefile (1.2):
+
+	Update makefile.
+
+2013-05-21 Tuesday  DoccY <alban@mancheron.infos.st>
+
+	* lib/Config/FileManager.pm (1.2):
+
+	Update version.
+	Will be automatic from now.
+
+2013-05-21 Tuesday  DoccY <alban@mancheron.infos.st>
+
+	* Changes (1.2):
+
+	Update log.
+
+2013-05-21 Tuesday  tag Release_0_0
+
+2013-05-21 Tuesday  DoccY <alban@mancheron.infos.st>
+
+	* Changes (1.1), MANIFEST (1.1), Makefile (1.1), Makefile.PL (1.1),
+	  README (1.1), TODO (1.1), ignore.txt (1.1), pm_to_blib (1.1),
+	  lib/Config/FileManager.pm (1.1), t/00-load.t (1.1),
+	  t/Config-FileManager.t (1.1), t/manifest.t (1.1),
+	  t/pod-coverage.t (1.1), t/pod.t (1.1):
+
+	Initial revision
+
+2013-05-21 Tuesday  DoccY <alban@mancheron.infos.st>
+
+	* Changes (1.1.1.1), MANIFEST (1.1.1.1), Makefile (1.1.1.1),
+	  Makefile.PL (1.1.1.1), README (1.1.1.1), TODO (1.1.1.1),
+	  ignore.txt (1.1.1.1), pm_to_blib (1.1.1.1),
+	  lib/Config/FileManager.pm (1.1.1.1), t/00-load.t (1.1.1.1),
+	  t/Config-FileManager.t (1.1.1.1), t/manifest.t (1.1.1.1),
+	  t/pod-coverage.t (1.1.1.1), t/pod.t (1.1.1.1):
+
+	Perl Module for manage configuration files.
+
