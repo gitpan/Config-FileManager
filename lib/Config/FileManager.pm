@@ -73,11 +73,14 @@
 #                                                                             #
 ###############################################################################
 #
-# $Id: FileManager.pm,v 1.2 2013/05/21 17:04:08 doccy Exp $
+# $Id: FileManager.pm,v 1.3 2013/05/22 08:11:25 doccy Exp $
 #
 ###############################################################################
 #
 # $Log: FileManager.pm,v $
+# Revision 1.3  2013/05/22 08:11:25  doccy
+# Fix POD examples.
+#
 # Revision 1.2  2013/05/21 17:04:08  doccy
 # Update version.
 # Will be automatic from now.
@@ -108,7 +111,7 @@ require Exporter;
 
 our @ISA = qw(Exporter);
 
-our $VERSION = (qw$Revision: 1.2 $)[-1];
+our $VERSION = (qw$Revision: 1.3 $)[-1];
 our $MODULE = "Config::FileManager";
 
 ###########################
@@ -131,6 +134,7 @@ It provides versionning and check for updates of obsolete
 versions.
 
 Usage:
+
   use Config::FileManager;
 
 =head1 DESCRIPTION
@@ -271,6 +275,7 @@ sub new {
 This method get/set the name of the tool for which the config file is.
 
 Usage:
+
   my $toolname = $cfg->toolname();
   $cfg->toolname("tool name");
 
@@ -291,6 +296,7 @@ sub toolname($;$) {
 This method get/set the file basename of the config file
 
 Usage:
+
   my $filename = $cfg->filename();
   $cfg->filename("file name");
 
@@ -312,6 +318,7 @@ This method get/set the paths where the config file should be found.
 The special __APPDIR__ path is OS dependant (see I<File::HomeDir> module documentation).
 
 Usage:
+
   my @paths = $cfg->paths();
   $cfg->paths(qw(list ./of/paths));
 
@@ -332,6 +339,7 @@ sub paths($;@) {
 This method get/set the value of interactive...
 
 Usage:
+
   my $v = $cfg->interactive();
   $cfg->interactive(0); # or $cfg->interactive(1);
 
@@ -351,6 +359,7 @@ sub interactive($;$) {
 This method get/set the current version of the config file
 
 Usage:
+
   my $vers = $cfg->version();
   $cfg->version("0.1.2");
 
@@ -371,6 +380,7 @@ sub version($;$) {
 This method returns (and prior computes if required) the array of all version's strings from the newest to the oldest.
 
 Usage:
+
   $cfg->versions();
 
 =cut
@@ -401,6 +411,7 @@ You can (should) use '__VERSION__' instead of giving it explicitely.
 In such case, it will be replaced by the corresponding version string.
 
 Usage:
+
   my $cfg_txt = $cfg->defaultContent();
   $cfg->defaultContent("# the default config content of the current version");
 
@@ -421,6 +432,7 @@ This method adds the patch from a given version of the default config file
 to the preceeding version of the default config.
 
 Usage:
+
   $cfg->addPatch(
                  "from" => "some version",
                  "to" => "previous version",
@@ -450,6 +462,7 @@ This method gets (and prior computes if required) the path where the config file
 If no config file is found, then the default current config file is created in the "correct" place.
 
 Usage:
+
   $cfg->getPath();
 
 =cut
@@ -507,6 +520,7 @@ This method check if the current config file is up-to-date and proposes an updat
 The update tries to preserve custom user's settings.
 
 Usage:
+
   $cfg->update();
 
 =cut
@@ -586,6 +600,7 @@ sub update($) {
 This method gets the default config content of the given version. If ommited, then uses the current version.
 
 Usage:
+
   $cfg->getDefaultContent();
   $cfg->getDefaultContent("a given version");
 

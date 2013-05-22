@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Config-FileManager
-version:            1.2
+version:            1.3
 abstract:           Configuration File Management with versionning
 author:
     - Alban MANCHERON <alban.mancheron@lirmm.fr>, Nicolas PHILIPPE <nphilippe@lirmm.fr>
