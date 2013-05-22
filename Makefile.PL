@@ -1,12 +1,16 @@
 ###############################################################################
 #                                                                             #
-#    Copyright © 2012-2013 -- LIRMM/CNRS                                      #
+#    Copyright © 2012-2013 -- LIRMM/UM2                                       #
 #                            (Laboratoire d'Informatique, de Robotique et de  #
 #                             Microélectronique de Montpellier /              #
-#                             Centre National de la Recherche Scientifique).  #
+#                             Université de Montpellier 2)                    #
+#                             IRB/INSERM                                      #
+#                            (Institut de Recherche en Biothérapie /          #
+#                             Institut National de la Santé et de la          #
+#                             Recherche Médicale)                             #
 #                                                                             #
 #  Auteurs/Authors: Alban MANCHERON  <alban.mancheron@lirmm.fr>               #
-#                   Nicolas PHILIPPE <nphilippe@lirmm.fr>                     #
+#                   Nicolas PHILIPPE <nicolas.philippe@inserm.fr>             #
 #                                                                             #
 #  -------------------------------------------------------------------------  #
 #                                                                             #
@@ -73,11 +77,14 @@
 #                                                                             #
 ###############################################################################
 #
-# $Id: Makefile.PL,v 1.2 2013/05/22 10:35:12 doccy Exp $
+# $Id: Makefile.PL,v 1.3 2013/05/22 11:38:44 doccy Exp $
 #
 ###############################################################################
 #
 # $Log: Makefile.PL,v $
+# Revision 1.3  2013/05/22 11:38:44  doccy
+# Update Copyright informations
+#
 # Revision 1.2  2013/05/22 10:35:12  doccy
 # Add CéCILL Copyright Notice
 #
@@ -96,7 +103,6 @@ WriteMakefile(
 	      NAME              => 'Config::FileManager',
 	      VERSION_FROM      => "lib/Config/FileManager.pm",
 	      ABSTRACT_FROM     => 'lib/Config/FileManager.pm', # retrieve abstract from module
-	      LICENSE           => 'open_source',
               PREREQ_FATAL      => 1,
 	      PREREQ_PM         => {
 				    "Exporter" => 5.62,
@@ -112,9 +118,9 @@ WriteMakefile(
 				    "Data::Dumper" => 2.125,
 				    "Carp" => 1.17,
 				   },
-	      AUTHOR            => 'Alban MANCHERON <alban.mancheron@lirmm.fr>, Nicolas PHILIPPE <nphilippe@lirmm.fr>',
+	      AUTHOR            => 'Alban MANCHERON <alban.mancheron@lirmm.fr>, Nicolas PHILIPPE <nicolas.philippe@inserm.fr>',
               ($ExtUtils::MakeMaker::VERSION >= 6.3002
-               ? ('LICENSE'=> 'perl')
+               ? ('LICENSE'=> 'open_source')
                : ()),
               clean             => { FILES => 'Config-FileManager-*' },
 	     );

@@ -1,12 +1,16 @@
 ###############################################################################
 #                                                                             #
-#    Copyright © 2012-2013 -- LIRMM/CNRS                                      #
+#    Copyright © 2012-2013 -- LIRMM/UM2                                       #
 #                            (Laboratoire d'Informatique, de Robotique et de  #
 #                             Microélectronique de Montpellier /              #
-#                             Centre National de la Recherche Scientifique).  #
+#                             Université de Montpellier 2)                    #
+#                             IRB/INSERM                                      #
+#                            (Institut de Recherche en Biothérapie /          #
+#                             Institut National de la Santé et de la          #
+#                             Recherche Médicale)                             #
 #                                                                             #
 #  Auteurs/Authors: Alban MANCHERON  <alban.mancheron@lirmm.fr>               #
-#                   Nicolas PHILIPPE <nphilippe@lirmm.fr>                     #
+#                   Nicolas PHILIPPE <nicolas.philippe@inserm.fr>             #
 #                                                                             #
 #  -------------------------------------------------------------------------  #
 #                                                                             #
@@ -73,11 +77,14 @@
 #                                                                             #
 ###############################################################################
 #
-# $Id: FileManager.pm,v 1.4 2013/05/22 10:42:43 doccy Exp $
+# $Id: FileManager.pm,v 1.5 2013/05/22 11:39:02 doccy Exp $
 #
 ###############################################################################
 #
 # $Log: FileManager.pm,v $
+# Revision 1.5  2013/05/22 11:39:02  doccy
+# Update Copyright informations
+#
 # Revision 1.4  2013/05/22 10:42:43  doccy
 # Add CÃ©CILL Copyright Notice
 #
@@ -114,7 +121,7 @@ require Exporter;
 
 our @ISA = qw(Exporter);
 
-our $VERSION = (qw$Revision: 1.4 $)[-1];
+our $VERSION = (qw$Revision: 1.5 $)[-1];
 our $MODULE = "Config::FileManager";
 
 ###########################
@@ -683,14 +690,18 @@ sub getDefaultContent($;$) {
 =head1 AUTHORS
 
 Alban MANCHERON E<lt>L<alban.mancheron@lirmm.fr|mailto:alban.mancheron@lirmm.fr>E<gt>,
-Nicolas PHILIPPE E<lt>L<nphilippe@lirmm.fr|mailto:nphilippe@lirmm.fr>E<gt>.
+Nicolas PHILIPPE E<lt>L<nicolas.philippe@inserm.fr|mailto:nicolas.philippe@inserm.fr>E<gt>.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2012-2013 -- LIRMM/CNRS
+Copyright (C) 2012-2013 -- LIRMM/UM2
                            (Laboratoire d'Informatique, de Robotique et de
                             Microélectronique de Montpellier /
-                            Centre National de la Recherche Scientifique).
+                            Université de Montpellier 2)
+                           IRB/INSERM
+                           (Institut de Recherche en Biothérapie /
+                            Institut National de la Santé et de la
+                            Recherche Médicale)
 
 =head2 FRENCH
 
@@ -720,5 +731,5 @@ license as circulated by CEA, CNRS and INRIA at the following URL
 # End of POD #
 ##############
 
-1;
+1; 
 __END__

@@ -1,7 +1,7 @@
 =========================================================================
 Config::File -- Configuration File Management with versionning
 -------------------------------------------------------------------------
-$Id: README,v 1.1.1.1 2013/05/21 16:43:23 doccy Exp $
+$Id: README,v 1.2 2013/05/22 11:38:44 doccy Exp $
 =========================================================================
 
 
@@ -71,13 +71,17 @@ PROBLEMS:
 COPYRIGHT AND LICENCE:
 =====================
 
-  Copyright © 2012-2013 -- LIRMM/CNRS
+  Copyright © 2012-2013 -- LIRMM/UM2
                           (Laboratoire d'Informatique, de Robotique et de
                            Microélectronique de Montpellier /
-                           Centre National de la Recherche Scientifique).
+                           Université de Montpellier 2)
+                           IRB/INSERM
+                          (Institut de Recherche en Biothérapie /
+                           Institut National de la Santé et de la
+                           Recherche Médicale)
 
 Auteurs/Authors: Alban MANCHERON  <alban.mancheron@lirmm.fr>
-                 Nicolas PHILIPPE <nphilippe.uricaru@lirmm.fr>
+                 Nicolas PHILIPPE <nicolas.philippe@inserm.fr>
 
 -------------------------------------------------------------------------
 
