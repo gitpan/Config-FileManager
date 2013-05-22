@@ -73,11 +73,14 @@
 #                                                                             #
 ###############################################################################
 #
-# $Id: Makefile.PL,v 1.1.1.1 2013/05/21 16:43:23 doccy Exp $
+# $Id: Makefile.PL,v 1.2 2013/05/22 10:35:12 doccy Exp $
 #
 ###############################################################################
 #
 # $Log: Makefile.PL,v $
+# Revision 1.2  2013/05/22 10:35:12  doccy
+# Add CéCILL Copyright Notice
+#
 # Revision 1.1.1.1  2013/05/21 16:43:23  doccy
 # Perl Module for manage configuration files.
 #
@@ -93,7 +96,7 @@ WriteMakefile(
 	      NAME              => 'Config::FileManager',
 	      VERSION_FROM      => "lib/Config/FileManager.pm",
 	      ABSTRACT_FROM     => 'lib/Config/FileManager.pm', # retrieve abstract from module
-	      LICENSE           => 'CéCILL',
+	      LICENSE           => 'open_source',
               PREREQ_FATAL      => 1,
 	      PREREQ_PM         => {
 				    "Exporter" => 5.62,

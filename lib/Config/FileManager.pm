@@ -73,11 +73,14 @@
 #                                                                             #
 ###############################################################################
 #
-# $Id: FileManager.pm,v 1.3 2013/05/22 08:11:25 doccy Exp $
+# $Id: FileManager.pm,v 1.4 2013/05/22 10:42:43 doccy Exp $
 #
 ###############################################################################
 #
 # $Log: FileManager.pm,v $
+# Revision 1.4  2013/05/22 10:42:43  doccy
+# Add CéCILL Copyright Notice
+#
 # Revision 1.3  2013/05/22 08:11:25  doccy
 # Fix POD examples.
 #
@@ -111,7 +114,7 @@ require Exporter;
 
 our @ISA = qw(Exporter);
 
-our $VERSION = (qw$Revision: 1.3 $)[-1];
+our $VERSION = (qw$Revision: 1.4 $)[-1];
 our $MODULE = "Config::FileManager";
 
 ###########################
@@ -122,7 +125,7 @@ our $MODULE = "Config::FileManager";
 ###########################
 
 =encoding utf8
- 
+
 =head1 NAME
 
 Config::FileManager - Configuration File Management with versionning
