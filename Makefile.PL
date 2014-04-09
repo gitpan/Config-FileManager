@@ -77,11 +77,15 @@
 #                                                                             #
 ###############################################################################
 #
-# $Id: Makefile.PL,v 1.3 2013/05/22 11:38:44 doccy Exp $
+# $Id: Makefile.PL,v 1.4 2014/04/09 07:33:38 doccy Exp $
 #
 ###############################################################################
 #
 # $Log: Makefile.PL,v $
+# Revision 1.4  2014/04/09 07:33:38  doccy
+# Removing PREREQ_FATAL in makefile (thanks to both Jérôme Audoux and Slaven
+# Rezic).
+#
 # Revision 1.3  2013/05/22 11:38:44  doccy
 # Update Copyright informations
 #
@@ -103,7 +107,7 @@ WriteMakefile(
 	      NAME              => 'Config::FileManager',
 	      VERSION_FROM      => "lib/Config/FileManager.pm",
 	      ABSTRACT_FROM     => 'lib/Config/FileManager.pm', # retrieve abstract from module
-              PREREQ_FATAL      => 1,
+              PREREQ_FATAL      => 0,
 	      PREREQ_PM         => {
 				    "Exporter" => 5.62,
 				    "File::Basename" => 2.76,

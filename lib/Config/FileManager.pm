@@ -77,11 +77,14 @@
 #                                                                             #
 ###############################################################################
 #
-# $Id: FileManager.pm,v 1.5 2013/05/22 11:39:02 doccy Exp $
+# $Id: FileManager.pm,v 1.6 2013/11/07 10:19:25 doccy Exp $
 #
 ###############################################################################
 #
 # $Log: FileManager.pm,v $
+# Revision 1.6  2013/11/07 10:19:25  doccy
+# Renaming the module.
+#
 # Revision 1.5  2013/05/22 11:39:02  doccy
 # Update Copyright informations
 #
@@ -121,8 +124,7 @@ require Exporter;
 
 our @ISA = qw(Exporter);
 
-our $VERSION = (qw$Revision: 1.5 $)[-1];
-our $MODULE = "Config::FileManager";
+our $VERSION = (qw$Revision: 1.6 $)[-1];
 
 ###########################
 # Plain Old Documentation #
@@ -182,7 +184,7 @@ our @available_settings = keys %default_settings;
 
 ###########################
 # Plain Old Documentation #
-#   Export Tags 1/5       #
+#   Export Tags           #
 ###########################
 
 =head2 EXPORT
